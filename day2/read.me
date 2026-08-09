@@ -1,0 +1,59 @@
+# 🔐 JWT Authentication API
+
+A small RESTful Authentication API built with **Node.js, Express.js, MongoDB, JWT, and bcryptjs**.
+
+This project demonstrates the fundamentals of backend authentication, including:
+
+- User registration
+- Password hashing with bcrypt
+- User login
+- JWT token generation
+- JWT authentication middleware
+- Protected routes
+- Centralized error handling
+- MongoDB database integration
+
+---
+
+## 🚀 Tech Stack
+
+- **Node.js** - JavaScript runtime
+- **Express.js** - Backend framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - MongoDB ODM
+- **bcryptjs** - Password hashing
+- **jsonwebtoken** - JWT authentication
+- **dotenv** - Environment variable management
+- **Nodemon** - Development server
+
+---
+
+## 📁 Project Structure
+
+```text
+day2/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   └── authController.js
+│
+├── middleware/
+│   ├── authMiddleware.js
+│   └── errorMiddleware.js
+│
+├── models/
+│   └── user.js
+│
+├── routes/
+│   └── authRoutes.js
+│
+├── utils/
+│   └── generateToken.js
+│
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── server.js
